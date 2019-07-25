@@ -1,0 +1,258 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    MARGIN:0;
+    PADDING:0;
+  }
+  
+  #wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h3 {
+    margin: 0 0 1em 0;
+  }
+  
+  
+
+  header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+  }
+  
+  #logo {
+    text-align: center;
+    margin: 0;
+  }
+  #logo img{
+      height:10vh;
+  }
+  h1 {
+    font-family:'Montserrat', sans-serif ;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+  }
+  
+  h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+  }
+  
+  
+  
+  nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+  }
+  
+  
+  footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+  
+
+  
+  #gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #gallery li {
+    float: left;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+  }
+  
+  #gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7
+  }
+  
+
+  
+  .profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+  }
+  
+  
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  .contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+  }
+  
+  .contact-info li.phone a {
+    background-image: url('../Images/phone.png');
+  }
+  
+  .contact-info li.mail a {
+    background-image: url('../Images/mail.png');
+  }
+  
+  .contact-info li.twitter a {
+    background-image: url('../Images/twitter.png');
+  }
+  
+  
+
+  /* site body */
+  body {
+    background-color: #fff;
+    color: #999;
+  }
+  
+  /* green header */
+  header {
+    background: #f4f4f4;
+    border-color: #f4f4f4;
+  }
+  
+  /* nav background on mobile */
+  nav {
+    background: #e3e3e3;
+  }
+  
+  /* logo text */
+  h1, h2 {
+    color: #fff;
+  }
+  
+  /* links */
+  a {
+    color: #6ab47b;
+  }
+  
+  /* nav link */
+  nav a {
+    color: #292929;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    transition:0.3s;
+    font-size: 20px;
+  }
+  nav a:hover{
+      text-decoration: underline;
+      color:#337ab7;
+  }
+
+  
+  @media screen and (min-width: 480px) {
+  
+    /**********************************
+    TWO COLUMN LAYOUT
+    ***********************************/
+    
+    #primary {
+      width: 50%;
+      float: left;
+    }
+    
+    #secondary {
+      width: 40%;
+      float: right;
+    }
+    
+  
+    
+
+  
+  @media screen and (min-width: 660px) {
+  
+    /**********************************
+    HEADER
+    ***********************************/
+  
+    nav {
+      background: none;
+      float: right;
+      font-size: 1.125em;
+      margin-right: 5%;
+      text-align: right;
+      width: 45%;
+    }
+    
+    #logo {
+      float: left;
+      margin-left: 5%;
+      text-align: left;
+      width: 45%;
+    }
+    
+    h1 {
+      font-size: 2.5em;
+    }
+    
+    h2 {
+      font-size: 0.825em;
+      margin-bottom: 20px;
+    }
+    
+    header {
+      border-bottom: 5px solid transparent;
+      margin-bottom: 60px;
+    }
+  
+    
+  }
+  
+
+  
